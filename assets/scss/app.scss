@@ -1,3 +1,5 @@
- @import "../../../fin/assets/scss/app"; // Import Parent sass
- 
- 
+@import "variables";
+$include-woo-classes: true;
+$include-parent-classes: true;
+@import "../../../fin/assets/scss/app"; // Import Parent sass
+
